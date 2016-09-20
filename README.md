@@ -16,7 +16,7 @@ A react-native developers can release and deploy their apps using BundleBus cli 
 ## Solve
 - We provide a backend which provides to control bundle version, build, release and deploy.
 - We provide a Command Line Interface which provides to simply do 'release' and 'deploy'. So what developers have to do is just enter cli command to release/deploy their product.
-- We provide a iOS/Android client library for effective download/merge released/deployed bundle version.
+- We provide a iOS/Android client library for effective download/merge a newer bundle version.
 
 # Components
 BundleBus has 3 components including backend, client library and cli.
