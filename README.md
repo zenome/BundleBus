@@ -8,14 +8,14 @@ A react-native developers can release and deploy their apps using BundleBus cli 
 - When releasing the output, a developer do same thing every time.
   - Download source files from a repository
   - Make a output( = bundle)
-  - Upload it to the customer server(We call it 'release').
+  - Upload it to the customer server(We call it `release`).
   - Validation team download it and do their job.
-  - If everything is ok, then that bundle is relocated to specific place for end-user to download it.(We call it 'deploy').
+  - If everything is ok, then that bundle is relocated to specific place for end-user to download it.(We call it `deploy`).
 - When deploying the output, a developer have to connect server and change the location.
 
 ## Solve
 - We provide a backend which provides to control bundle version, build, release and deploy.
-- We provide a Command Line Interface which provides to simply do 'release' and 'deploy'. So what developers have to do is just enter cli command to release/deploy their product.
+- We provide a Command Line Interface which provides to simply do `release` and `deploy`. So what developers have to do is just enter cli command to release/deploy their product.
 - We provide a iOS/Android client library for effective download/merge a newer bundle version.
 
 # Components
@@ -30,15 +30,15 @@ BundleBus has 3 components including backend, client library and cli.
 ~~~~
 npm install BundleBus-cli -g
 ~~~~
-- Clone our example apps from 'https://github.com/zenome/BundleBus-example'
+- Clone our example apps from https://github.com/zenome/BundleBus-example
 - Open a terminal in a local machine and move to the BundleBus-example folder.
 - Register your github token by below command
 ~~~~
 BundleBus register
 ~~~~
-  - "Repository clone url" should be 'https://github.com/zenome/BundleBus_example.git'
-  - Enter "Repository - github token". You can refer  [this link.](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
-- Update the source code and commit to the git. Make sure that a version field in 'package.json' MUST be increased.
+  - `Repository clone url` should be `https://github.com/zenome/BundleBus_example.git`.
+  - Enter `Repository - github token`. You can refer  [this link.](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
+- Update the source code and commit to the git. Make sure that a version field in `package.json` MUST be updated.
 - Enter command in a terminal. This may take a time.
 ~~~~
 BundleBus release <ios | android>
