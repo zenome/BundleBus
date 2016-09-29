@@ -1,5 +1,5 @@
 # BundleBus
-Simply, it's like Code-push but a little different.
+Simply, it's like code-push but a little different.
 
 # Description
 BundleBus(by ZENOME) provides an easy and convenient update and maintenance mechanism once an react-native app is deployed to app store or production.
