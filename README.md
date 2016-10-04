@@ -31,23 +31,23 @@ BundleBus has 3 components including backend, client library and cli.
 - Download Backend and run it on your system. See the instruction in Backend github page.
 - Install 'BundleBus-cli' by below command
 ~~~~
-npm install BundleBus-cli -g
+npm install bundlebus-cli -g
 ~~~~
 - Clone our example apps from https://github.com/zenome/BundleBus_example
 - Open a terminal in a local machine and move to the BundleBus-example folder.
 - Register your github token by below command
 ~~~~
-BundleBus register
+bundlebus register
 ~~~~
   - `Repository clone url` should be `https://github.com/zenome/BundleBus_example.git`.
   - Enter `Repository - github token`. You can refer  [this link.](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
 - Update the source code and commit to the git. Make sure that a version field in `package.json` MUST be updated.
 - Enter command in a terminal. This may take a time.
 ~~~~
-BundleBus release <ios | android>
+bundlebus release <ios | android>
 ~~~~
 - Enter command in a terminal.
 ~~~~
-BundleBus deploy <ios | android>
+bundlebus deploy <ios | android>
 ~~~~
 - Run your apps. And check the version and whole layout. Example app shows the update result. Let's restart your apps as soon as it shows complete.
