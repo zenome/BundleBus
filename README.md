@@ -31,7 +31,7 @@ BundleBus has 3 key components consist of backend, client library and cli.
 - Download Backend and run it on your system. See the instruction in the [Backend github](https://github.com/zenome/BundleBus_backend) page.
 - Install 'BundleBus-cli' via below command
 ~~~~
-npm install bundlebus-cli -g
+sudo npm install bundlebus-cli -g
 ~~~~
 - Clone our example apps from https://github.com/zenome/BundleBus_example
 - Open a terminal window and move to the BundleBus-example folder.
